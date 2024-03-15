@@ -31,6 +31,8 @@ def xor_fun(k1, k2):
     for i, j in zip(k1, k2):
         #d = hex(i^j)
         h = format(i^j, 'x')
+        if len(h) == 1:
+            h = '0' + h
         result.append(h)
 
     result_string = "-".join(result)
