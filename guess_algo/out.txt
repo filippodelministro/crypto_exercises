@@ -1,0 +1,80 @@
+-----ITER 0 ------
+algo: EVP_aes_128_cbc
+Plaintext length = 16
+b43069bbbcb31288d1f2cc084a78e067
+¥0iªº≥à—ÚÃJx‡g
+CRYPTO24{¥0iªº≥à—ÚÃJx‡gEVP_aes_128_cbc}
+-------------------
+
+-----ITER 1 ------
+algo: EVP_aes_192_cbc
+Plaintext length = 16
+ddca94e94580108d50d744bd05fd43d8
+› îÈEÄçP◊DΩ˝Cÿ
+CRYPTO24{› îÈEÄçP◊DΩ˝CÿEVP_aes_192_cbc}
+-------------------
+
+-----ITER 2 ------
+algo: EVP_aes_256_cbc
+Plaintext length = 16
+7b4d1f25f6d905f3467c291a21e6d070
+{M%ˆŸÛF|)!Ê–p
+CRYPTO24{{M%ˆŸÛF|)!Ê–pEVP_aes_256_cbc}
+-------------------
+
+-----ITER 3 ------
+algo: EVP_des_cbc
+Plaintext length = 0
+
+
+CRYPTO24{EVP_des_cbc}
+-------------------
+
+-----ITER 4 ------
+algo: EVP_des_ede3_cbc
+Plaintext length = 16
+cae4b0958b941bb26045da99cf49bf42
+ ‰∞ïãî≤`E⁄ôœIøB
+CRYPTO24{ ‰∞ïãî≤`E⁄ôœIøBEVP_des_ede3_cbc}
+-------------------
+
+-----ITER 5 ------
+algo: EVP_bf_cbc
+Plaintext length = 0
+
+
+CRYPTO24{EVP_bf_cbc}
+-------------------
+
+-----ITER 6 ------
+algo: EVP_rc4
+Plaintext length = 0
+
+
+CRYPTO24{EVP_rc4}
+-------------------
+
+-----ITER 7 ------
+algo: EVP_rc2_cbc
+Plaintext length = 0
+
+
+CRYPTO24{EVP_rc2_cbc}
+-------------------
+
+-----ITER 8 ------
+algo: EVP_camellia_128_cbcEVP_chacha20_poly1300123456789ABCDEF
+Plaintext length = 16
+72671f60c05f24a08bb8a389e8614f68
+rg`¿_$†ã∏£âËaOh
+CRYPTO24{rg`¿_$†ã∏£âËaOhEVP_camellia_128_cbcEVP_chacha20_poly1300123456789ABCDEF}
+-------------------
+
+-----ITER 9 ------
+algo: EVP_chacha20_poly1300123456789ABCDEF
+Plaintext length = 22
+294db2556941baad93de2dba275a4a8b70495cfb63a4
+)M≤UiA∫≠ìﬁ-∫'ZJãpI\˚c§
+CRYPTO24{)M≤UiA∫≠ìﬁ-∫'ZJãpI\˚c§EVP_chacha20_poly1300123456789ABCDEF}
+-------------------
+
