@@ -58,6 +58,15 @@ int main() {
     BN_hex2bn(&b1, s1);
     BN_hex2bn(&b2, s2);
 
+    printf("---------- PRIME ---------\n");
+        if(BN_is_prime_ex(b1, 8, NULL, NULL))
+            printf("b1 is prime!\n");
+        if(BN_is_prime_ex(b2, 8, NULL, NULL))
+            printf("b2 is prime!\n");
+
+
+    printf("---------- DIVISION ---------\n");
+
     if (!BN_div(b3, b4, b1, b2, ctx)){
         printf("Error suring division\n");
         return 1;
@@ -69,12 +78,23 @@ int main() {
     // printf("b4: %s\n\n", BN_bn2dec(b4));
 
     char *res = BN_bn2hex(b3);
-    printf("res: %s\n\n", res);
-    char out[100024];
+    // printf("res: %s\n\n", res);
+    char out[1000];
 
     add_colons(res, out);
     lowercase(out);
-    printf("CRYPTO24{%s}", out);
+    printf("CRYPTO24{00:%s}\n", out);
+
+    if (!BN_div(b3, b4, b1, b2, ctx)){
+        printf("Error suring division\n");
+        return 1;
+    }
+
+    // printf("b1: %s\n\n", BN_bn2dec(b1));
+    // printf("b2: %s\n\n", BN_bn2dec(b2));
+    // printf("b3: %s\n\n", BN_bn2dec(b3));
+    // printf("b4: %s\n\n", BN_bn2dec(b4));
+
 
     BN_free(b1);
     BN_free(b2);
